@@ -1,0 +1,39 @@
+[0.020s] Invoking command in '/home/parallels/Desktop/work/noyes/intervew/ros/example/build/example': /usr/bin/cmake /home/parallels/Desktop/work/noyes/intervew/ros/example -DCMAKE_INSTALL_PREFIX=/home/parallels/Desktop/work/noyes/intervew/ros/example/install/example
+[0.041s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.066s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.066s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.285s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.286s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.290s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.458s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.552s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.711s] Error parsing '/home/parallels/Desktop/work/noyes/intervew/ros/example/package.xml':
+[0.837s] Traceback (most recent call last):
+[0.837s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[0.837s]     main()
+[0.837s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[0.837s]     raise e
+[0.837s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[0.837s]     package = parse_package_string(
+[0.838s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.838s]     pkg.validate(warnings=warnings)
+[0.838s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.838s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.838s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/parallels/Desktop/work/noyes/intervew/ros/example/package.xml':
+[0.838s] Package name "./example" does not follow naming conventions
+[0.870s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.870s]   execute_process(/usr/bin/python3
+[0.871s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.871s]   /home/parallels/Desktop/work/noyes/intervew/ros/example/package.xml
+[0.871s]   /home/parallels/Desktop/work/noyes/intervew/ros/example/build/example/ament_cmake_core/package.cmake)
+[0.871s]   returned error code 1
+[0.871s] Call Stack (most recent call first):
+[0.871s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.871s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.871s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.871s] 
+[0.871s] 
+[0.872s] -- Configuring incomplete, errors occurred!
+[0.872s] See also "/home/parallels/Desktop/work/noyes/intervew/ros/example/build/example/CMakeFiles/CMakeOutput.log".
+[0.881s] Invoked command in '/home/parallels/Desktop/work/noyes/intervew/ros/example/build/example' returned '1': /usr/bin/cmake /home/parallels/Desktop/work/noyes/intervew/ros/example -DCMAKE_INSTALL_PREFIX=/home/parallels/Desktop/work/noyes/intervew/ros/example/install/example

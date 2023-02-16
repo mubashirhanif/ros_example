@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000406] (example) JobQueued: {'identifier': 'example', 'dependencies': OrderedDict()}
+[0.000610] (example) JobStarted: {'identifier': 'example'}
+[0.028940] (example) JobProgress: {'identifier': 'example', 'progress': 'cmake'}
+[0.029098] (example) Command: {'cmd': ['/usr/bin/cmake', '/home/parallels/Desktop/work/noyes/intervew/ros/example', '-DCMAKE_INSTALL_PREFIX=/home/parallels/Desktop/work/noyes/intervew/ros/example/install/example'], 'cwd': '/home/parallels/Desktop/work/noyes/intervew/ros/example/build/example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('USER', 'parallels'), ('LC_TIME', 'de_DE.UTF-8'), ('WORKON_HOME', '/home/parallels/.virtualenvs'), ('SSH_AGENT_PID', '5370'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LOGGING_BROKER_HOST', 'localhost'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels/Desktop/work/noyes/intervew/ros'), ('LESS', '-R'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/parallels/.nvm/versions/node/v18.12.1/bin'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ZSH', '/home/parallels/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('NVM_INC', '/home/parallels/.nvm/versions/node/v18.12.1/include/node'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '5191'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9313'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('UBUNTU_MENUPROXY', '1'), ('NVM_DIR', '/home/parallels/.nvm'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'parallels'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:57514'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/parallels/.local/bin:/home/parallels/.nvm/versions/node/v18.12.1/bin:/home/parallels/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/parallels-Parallels-Virtual-Platform:@/tmp/.ICE-unix/5413,unix/parallels-Parallels-Virtual-Platform:/tmp/.ICE-unix/5413'), ('PAPERSIZE', 'a4'), ('INVOCATION_ID', 'c1d9307739cc42cb97a3ecb9286917fe'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('BRAIN_PATH', '/home/parallels/Desktop/work/noyes/nys_store_brain'), ('DISPLAY', ':0'), ('MQTT_BROKER_HOST', 'localhost'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LANG', 'en_US.UTF-8'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('TERMINATOR_UUID', 'urn:uuid:bdb736cd-6495-490f-adb8-27718fba1845'), ('SHELL', '/usr/bin/zsh'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/parallels/.virtualenvs'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('VIRTUALENVWRAPPER_SCRIPT', '/home/parallels/.local/bin/virtualenvwrapper.sh'), ('PWD', '/home/parallels/Desktop/work/noyes/intervew/ros/example/build/example'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('_P9K_TTY', '/dev/pts/1'), ('NVM_CD_FLAGS', '-q'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('VIRTUALENVWRAPPER_VIRTUALENV', '/home/parallels/.local/bin/virtualenv'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'de_DE.UTF-8'), ('SQLALCHEMY_DATABASE_URI', 'postgresql://postgres:root@localhost:5432/nys_store_db'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.098875] (-) TimerEvent: {}
+[0.199428] (-) TimerEvent: {}
+[0.299906] (-) TimerEvent: {}
+[0.400991] (-) TimerEvent: {}
+[0.502393] (-) TimerEvent: {}
+[0.603498] (-) TimerEvent: {}
+[0.704110] (-) TimerEvent: {}
+[0.805905] (-) TimerEvent: {}
+[0.906477] (-) TimerEvent: {}
+[0.909703] (example) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.006898] (-) TimerEvent: {}
+[1.107367] (-) TimerEvent: {}
+[1.207920] (-) TimerEvent: {}
+[1.308592] (-) TimerEvent: {}
+[1.409589] (-) TimerEvent: {}
+[1.510057] (-) TimerEvent: {}
+[1.611073] (-) TimerEvent: {}
+[1.711803] (-) TimerEvent: {}
+[1.725193] (example) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.747927] (example) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.812064] (-) TimerEvent: {}
+[1.912728] (-) TimerEvent: {}
+[1.922564] (example) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.926289] (example) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.012884] (-) TimerEvent: {}
+[2.113497] (-) TimerEvent: {}
+[2.170567] (example) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.192550] (example) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.198343] (example) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.208053] (example) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.213679] (-) TimerEvent: {}
+[2.314412] (-) TimerEvent: {}
+[2.400718] (example) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.404402] (example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.414531] (-) TimerEvent: {}
+[2.515200] (-) TimerEvent: {}
+[2.615912] (-) TimerEvent: {}
+[2.685105] (example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.699546] (example) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.700366] (example) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.711911] (example) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.716094] (-) TimerEvent: {}
+[2.755607] (example) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.756011] (example) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.816273] (-) TimerEvent: {}
+[2.917306] (-) TimerEvent: {}
+[3.017929] (-) TimerEvent: {}
+[3.118479] (-) TimerEvent: {}
+[3.219238] (-) TimerEvent: {}
+[3.320133] (-) TimerEvent: {}
+[3.338855] (example) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[3.349685] (example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.371065] (example) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.420264] (-) TimerEvent: {}
+[3.520733] (-) TimerEvent: {}
+[3.570266] (example) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.620147] (example) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.620922] (-) TimerEvent: {}
+[3.722427] (-) TimerEvent: {}
+[3.743744] (example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.821866] (example) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[3.822539] (-) TimerEvent: {}
+[3.923996] (-) TimerEvent: {}
+[3.941588] (example) StdoutLine: {'line': b'-- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)\n'}
+[4.015297] (example) StderrLine: {'line': b'CMake Error at CMakeLists.txt:15 (find_package):\n'}
+[4.015648] (example) StderrLine: {'line': b'  By not providing "Findnys_bot_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[4.015765] (example) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[4.015856] (example) StderrLine: {'line': b'  "nys_bot_msgs", but CMake did not find one.\n'}
+[4.015943] (example) StderrLine: {'line': b'\n'}
+[4.016027] (example) StderrLine: {'line': b'  Could not find a package configuration file provided by "nys_bot_msgs" with\n'}
+[4.016126] (example) StderrLine: {'line': b'  any of the following names:\n'}
+[4.016202] (example) StderrLine: {'line': b'\n'}
+[4.016265] (example) StderrLine: {'line': b'    nys_bot_msgsConfig.cmake\n'}
+[4.016328] (example) StderrLine: {'line': b'    nys_bot_msgs-config.cmake\n'}
+[4.016395] (example) StderrLine: {'line': b'\n'}
+[4.016457] (example) StderrLine: {'line': b'  Add the installation prefix of "nys_bot_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[4.016520] (example) StderrLine: {'line': b'  "nys_bot_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[4.016584] (example) StderrLine: {'line': b'  "nys_bot_msgs" provides a separate development package or SDK, be sure it\n'}
+[4.016653] (example) StderrLine: {'line': b'  has been installed.\n'}
+[4.016747] (example) StderrLine: {'line': b'\n'}
+[4.017058] (example) StderrLine: {'line': b'\n'}
+[4.017185] (example) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.017343] (example) StdoutLine: {'line': b'See also "/home/parallels/Desktop/work/noyes/intervew/ros/example/build/example/CMakeFiles/CMakeOutput.log".\n'}
+[4.024594] (-) TimerEvent: {}
+[4.025726] (example) CommandEnded: {'returncode': 1}
+[4.026963] (example) JobEnded: {'identifier': 'example', 'rc': 1}
+[4.037921] (-) EventReactorShutdown: {}

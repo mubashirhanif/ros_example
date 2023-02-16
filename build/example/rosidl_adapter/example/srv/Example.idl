@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from example/srv/Example.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module example {
+  module srv {
+    struct Example_Request {
+      geometry_msgs::msg::Point a;
+
+      geometry_msgs::msg::Point b;
+    };
+    struct Example_Response {
+      sequence<geometry_msgs::msg::Point> out;
+    };
+  };
+};

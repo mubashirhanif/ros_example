@@ -1,0 +1,26 @@
+[0.940s] Invoking command in '/home/parallels/Desktop/work/noyes/intervew/ros/example/build/example': PYTHONPATH=/home/parallels/Desktop/work/noyes/intervew/ros/example/build/example/prefix_override:/home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/parallels/Desktop/work/noyes/intervew/ros/example/build/example/build --no-deps install_data
+[1.190s] running develop
+[1.341s] running egg_info
+[1.341s] creating example.egg-info
+[1.342s] writing example.egg-info/PKG-INFO
+[1.342s] writing dependency_links to example.egg-info/dependency_links.txt
+[1.342s] writing entry points to example.egg-info/entry_points.txt
+[1.342s] writing requirements to example.egg-info/requires.txt
+[1.342s] writing top-level names to example.egg-info/top_level.txt
+[1.347s] writing manifest file 'example.egg-info/SOURCES.txt'
+[1.380s] reading manifest file 'example.egg-info/SOURCES.txt'
+[1.381s] writing manifest file 'example.egg-info/SOURCES.txt'
+[1.413s] running build_ext
+[1.414s] Creating /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/lib/python3.8/site-packages/site.py
+[1.417s] Creating /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/lib/python3.8/site-packages/example.egg-link (link to .)
+[1.418s] Installing example script to /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/lib/./example
+[1.418s] 
+[1.418s] Installed /home/parallels/Desktop/work/noyes/intervew/ros/example/build/example
+[1.418s] running install_data
+[1.419s] creating /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/share/ament_index
+[1.419s] creating /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/share/ament_index/resource_index
+[1.419s] creating /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/share/ament_index/resource_index/packages
+[1.419s] copying resource/example -> /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/share/ament_index/resource_index/packages
+[1.419s] copying package.xml -> /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/share/example
+[1.419s] copying launch/example.launch.py -> /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/share/example
+[1.462s] Invoked command in '/home/parallels/Desktop/work/noyes/intervew/ros/example/build/example' returned '0': PYTHONPATH=/home/parallels/Desktop/work/noyes/intervew/ros/example/build/example/prefix_override:/home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/parallels/Desktop/work/noyes/intervew/ros/example/build/example/build --no-deps install_data

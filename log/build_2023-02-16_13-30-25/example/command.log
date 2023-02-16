@@ -1,0 +1,2 @@
+Invoking command in '/home/parallels/Desktop/work/noyes/intervew/ros/example/build/example': /usr/bin/cmake /home/parallels/Desktop/work/noyes/intervew/ros/example -DCMAKE_INSTALL_PREFIX=/home/parallels/Desktop/work/noyes/intervew/ros/example/install/example
+Invoked command in '/home/parallels/Desktop/work/noyes/intervew/ros/example/build/example' returned '1': /usr/bin/cmake /home/parallels/Desktop/work/noyes/intervew/ros/example -DCMAKE_INSTALL_PREFIX=/home/parallels/Desktop/work/noyes/intervew/ros/example/install/example

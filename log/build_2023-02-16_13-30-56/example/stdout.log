@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating example.egg-info
+writing example.egg-info/PKG-INFO
+writing dependency_links to example.egg-info/dependency_links.txt
+writing entry points to example.egg-info/entry_points.txt
+writing requirements to example.egg-info/requires.txt
+writing top-level names to example.egg-info/top_level.txt
+writing manifest file 'example.egg-info/SOURCES.txt'
+reading manifest file 'example.egg-info/SOURCES.txt'
+writing manifest file 'example.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/lib/python3.8/site-packages/site.py
+Creating /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/lib/python3.8/site-packages/example.egg-link (link to .)
+Installing example script to /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/lib/./example
+
+Installed /home/parallels/Desktop/work/noyes/intervew/ros/example/build/example
+running install_data
+creating /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/share/ament_index
+creating /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/share/ament_index/resource_index
+creating /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/share/ament_index/resource_index/packages
+copying resource/example -> /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/share/ament_index/resource_index/packages
+copying package.xml -> /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/share/example
+copying launch/example.launch.py -> /home/parallels/Desktop/work/noyes/intervew/ros/example/install/example/share/example
